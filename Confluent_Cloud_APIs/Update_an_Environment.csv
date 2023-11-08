@@ -1,0 +1,11 @@
+statusCode,firstName,lastName,email,phoneNumber,age
+200,John,Doe,johndoe@gmail.com,1234567890,25
+201,Jane,Smith,janesmith@gmail.com,0987654321,30
+200,Mary,Johnson,maryjohnson@gmail.com,1122334455,35
+201,James,Brown,jamesbrown@gmail.com,2233445566,40
+200,Patricia,Garcia,patriciagarcia@gmail.com,3344556677,45
+201,Robert,Martinez,robertmartinez@gmail.com,4455667788,50
+200,Linda,Rodriguez,lindarodriguez@gmail.com,5566778899,55
+201,Michael,Williams,michaelwilliams@gmail.com,6677889900,60
+200,Elizabeth,Taylor,elizabethtaylor@gmail.com,7788990011,65
+201,David,Anderson,davidanderson@gmail.com,8899001122,70

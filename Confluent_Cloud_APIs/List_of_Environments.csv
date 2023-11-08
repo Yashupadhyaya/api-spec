@@ -1,0 +1,14 @@
+statusCode,swaggerDatainfo,originalRequest
+200,DataInfo1,Request1
+404,DataInfo2,Request2
+500,,Request3
+200,DataInfo3,
+404,DataInfo4,Request4
+500,DataInfo5,Request5
+200,,Request6
+404,DataInfo6,
+500,DataInfo7,Request7
+200,DataInfo8,Request8
+404,,Request9
+500,DataInfo9,Request9
+200,DataInfo10,Request10

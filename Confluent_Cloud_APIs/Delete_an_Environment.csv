@@ -1,0 +1,11 @@
+statusCode,firstName,lastName,email,phoneNumber,city,state,zipCode,country
+200,John,Doe,johndoe@example.com,1234567890,New York,New York,10001,USA
+201,Jane,Doe,janedoe@example.com,2345678901,Los Angeles,California,90001,USA
+200,James,Smith,jamessmith@example.com,3456789012,Chicago,Illinois,60007,USA
+201,Jessica,Johnson,jessicajohnson@example.com,4567890123,Houston,Texas,77001,USA
+200,Michael,Brown,michaelbrown@example.com,5678901234,Phoenix,Arizona,85001,USA
+201,Emily,Davis,emilydavis@example.com,6789012345,Philadelphia,Pennsylvania,19019,USA
+200,Daniel,Garcia,danielgarcia@example.com,7890123456,San Antonio,Texas,78201,USA
+201,Sarah,Rodriguez,sarahrodriguez@example.com,8901234567,San Diego,California,92101,USA
+200,David,Martinez,davidmartinez@example.com,9012345678,Dallas,Texas,75201,USA
+201,Emma,Gonzalez,emmagonzalez@example.com,0123456789,San Jose,California,95101,USA

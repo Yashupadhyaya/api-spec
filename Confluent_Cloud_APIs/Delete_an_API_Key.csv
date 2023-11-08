@@ -1,0 +1,11 @@
+statusCode,firstName,lastName,email,phoneNumber,country,city,zipCode
+200,John,Doe,johndoe@gmail.com,1234567890,USA,New York,10001
+404,Jane,Smith,janesmith@gmail.com,0987654321,UK,London,SW1A 2AA
+500,Robert,Johnson,rjohnson@gmail.com,1122334455,Canada,Toronto,M5B 2K3
+200,Mary,Williams,mwilliams@gmail.com,2233445566,Australia,Sydney,2000
+404,James,Brown,jbrown@gmail.com,3344556677,Germany,Berlin,10115
+500,Patricia,Jones,pjones@gmail.com,4455667788,France,Paris,75001
+200,Michael,Miller,mmiller@gmail.com,5566778899,Italy,Rome,00118
+404,Linda,Davis,ldavis@gmail.com,6677889900,Spain,Madrid,28001
+500,William,Garcia,wgarcia@gmail.com,7788990011,Japan,Tokyo,100-0001
+200,Elizabeth,Taylor,etaylor@gmail.com,8899001122,Brazil,Rio de Janeiro,20031-170

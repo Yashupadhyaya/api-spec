@@ -1,0 +1,11 @@
+statusCode,firstName,lastName,email,phoneNumber,address
+200,John,Doe,johndoe@gmail.com,1234567890,123 Street CA
+201,Jane,Doe,janedoe@gmail.com,0987654321,456 Avenue NY
+202,Jim,Beam,jimbeam@gmail.com,1122334455,789 Lane TX
+203,Jack,Daniels,jackdaniels@gmail.com,5566778899,321 Boulevard FL
+204,Jill,Smith,jillsmith@gmail.com,9988776655,654 Drive WA
+205,Julia,Roberts,juliaroberts@gmail.com,8877665544,987 Way IL
+206,Jerry,Seinfeld,jerryseinfeld@gmail.com,7766554433,345 Road PA
+207,Janet,Jackson,janetjackson@gmail.com,6655443322,123 Path MI
+208,Jasmine,James,jasminejames@gmail.com,5544332211,456 Street GA
+209,Jacob,Johnson,jacobjohnson@gmail.com,4433221100,789 Avenue MA
