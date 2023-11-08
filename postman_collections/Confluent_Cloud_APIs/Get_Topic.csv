@@ -1,0 +1,11 @@
+include_authorized_operations,cluster_id,topic_name,statusCode
+true,dlz-f3a90de,topic1,200
+false,dlz-f3a90de,topic2,400
+true,dlz-f3a90de,topic3,401
+false,dlz-f3a90de,topic4,403
+true,dlz-f3a90de,topic5,404
+false,dlz-f3a90de,topic6,429
+true,dlz-f3a90de,topic7,500
+false,dlz-f3a90de,topic8,200
+true,dlz-f3a90de,topic9,400
+false,dlz-f3a90de,topic10,401
