@@ -1,0 +1,11 @@
+cluster_id,consumer_group_id,consumer_id,statusCode
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,200
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,400
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,401
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,403
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,429
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,500
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,200
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,400
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,401
+dlz-f3a90de,ComputePool,R15hoiDIq8Nxu,403
