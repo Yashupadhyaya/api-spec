@@ -1,0 +1,11 @@
+cluster_id,consumer_group_id,consumer_id,statusCode
+cluster-1,consumer-group-1,consumer-1,200
+cluster-2,consumer-group-2,consumer-2,400
+cluster-3,consumer-group-3,consumer-3,401
+cluster-4,consumer-group-4,consumer-4,403
+cluster-5,consumer-group-5,consumer-5,429
+cluster-6,consumer-group-6,consumer-6,500
+cluster-7,consumer-group-7,consumer-7,200
+cluster-8,consumer-group-8,consumer-8,400
+cluster-9,consumer-group-9,consumer-9,401
+cluster-10,consumer-group-10,consumer-10,403
