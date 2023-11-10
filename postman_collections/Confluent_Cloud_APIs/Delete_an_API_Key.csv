@@ -1,0 +1,11 @@
+id,statusCode
+dlz-f3a90de,204
+R15hoiDIq8Nxu,400
+flink_compute_pool_0,401
+This quota defines limits on how much the target principals can use cluster lkc-xxxxx,403
+https://api.confluent.cloud/v2/kafka-clusters/lkc-f3a90de,404
+crn://confluent.cloud/kafka=lkc-f3a90de,429
+2006-01-02T15:04:05-07:00,500
+https://api.confluent.cloud/v2/resourcekinds,204
+https://api.confluent.cloud/v2/resourcekinds?page_token=bcAOehAY8F16YD84Z1wT,400
+https://api.confluent.cloud/v2/resourcekinds?page_token=YIXRY97wWYmwzrax4dld,401
