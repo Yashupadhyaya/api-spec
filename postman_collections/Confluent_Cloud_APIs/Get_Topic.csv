@@ -1,0 +1,11 @@
+include_authorized_operations,cluster_id,topic_name,statusCode
+true,lkc-1111aaa,topic-1,200
+false,lkc-2222bbb,topic-2,400
+true,lkc-3333ccc,topic-3,401
+false,lkc-4444ddd,topic-4,403
+true,lkc-5555eee,topic-5,404
+false,lkc-6666fff,topic-6,429
+true,lkc-7777ggg,topic-7,500
+false,lkc-8888hhh,topic-8,200
+true,lkc-9999iii,topic-9,400
+false,lkc-0000jjj,topic-10,401
