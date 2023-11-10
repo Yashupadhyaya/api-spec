@@ -1,0 +1,11 @@
+cluster_id,statusCode
+cluster-1,200
+cluster-2,201
+cluster-3,400
+cluster-4,401
+cluster-5,403
+cluster-6,429
+cluster-7,500
+cluster-8,200
+cluster-9,201
+cluster-10,400
