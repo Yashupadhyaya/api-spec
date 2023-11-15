@@ -1,0 +1,10 @@
+id,display_name,statusCode,scenario
+1,prod-finance01,200,Successful responses: OK
+2,prod-finance02,400,Client error responses: Bad Request
+3,prod-finance03,401,Client error responses: Unauthorized
+4,prod-finance04,402,Client error responses: Payment Required
+5,prod-finance05,403,Client error responses: Forbidden
+6,prod-finance06,404,Client error responses: Not Found
+7,prod-finance07,422,Client error responses: Unprocessable Entity
+8,prod-finance08,429,Client error responses: Too Many Requests
+9,prod-finance09,500,Server error responses: Internal Server Error
