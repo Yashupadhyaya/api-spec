@@ -1,0 +1,13 @@
+laureateID,statusCode,scenario
+1,200,Successful responses: OK
+2,400,Client error responses: Bad Request
+3,404,Client error responses: Not Found
+4,422,Client error responses: Unprocessable Entity
+5,200,Successful responses: OK
+6,400,Client error responses: Bad Request
+7,404,Client error responses: Not Found
+8,422,Client error responses: Unprocessable Entity
+9,200,Successful responses: OK
+10,400,Client error responses: Bad Request
+11,404,Client error responses: Not Found
+12,422,Client error responses: Unprocessable Entity
