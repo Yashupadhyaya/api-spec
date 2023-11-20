@@ -1,0 +1,13 @@
+category,year,statusCode,scenario
+English,1989,200,Successful responses: OK
+Svenska,1989,200,Successful responses: OK
+Norsk,1989,200,Successful responses: OK
+English,1989,400,Client error responses: Bad Request
+Svenska,1989,400,Client error responses: Bad Request
+Norsk,1989,400,Client error responses: Bad Request
+English,1989,404,Client error responses: Not Found
+Svenska,1989,404,Client error responses: Not Found
+Norsk,1989,404,Client error responses: Not Found
+English,1989,422,Client error responses: Unprocessable Entity
+Svenska,1989,422,Client error responses: Unprocessable Entity
+Norsk,1989,422,Client error responses: Unprocessable Entity
