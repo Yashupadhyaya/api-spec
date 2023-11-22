@@ -1,0 +1,11 @@
+firstName,lastName,email,phoneNumber,age,gender,statusCode
+John,Doe,johndoe@gmail.com,1234567890,30,Male,200
+Jane,Smith,janesmith@gmail.com,0987654321,28,Female,200
+Robert,Brown,robertbrown@gmail.com,1122334455,35,Male,200
+Emily,Johnson,emilyjohnson@gmail.com,2233445566,32,Female,200
+Michael,Williams,michaelwilliams@gmail.com,3344556677,40,Male,200
+Sarah,Jones,sarahjones@gmail.com,4455667788,25,Female,200
+David,Miller,davidmiller@gmail.com,5566778899,45,Male,200
+Jessica,Davis,jessicadavis@gmail.com,6677889900,27,Female,200
+James,White,jameswhite@gmail.com,7788990011,50,Male,200
+Emma,Taylor,emmataylor@gmail.com,8899001122,22,Female,200

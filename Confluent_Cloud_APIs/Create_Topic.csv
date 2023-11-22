@@ -1,0 +1,13 @@
+Here's the CSV file as per your instructions:
+
+statusCode,swaggerDatainfo,originalRequest
+200,swaggerInfo1,originalRequest1
+404,swaggerInfo2,originalRequest2
+500,swaggerInfo3,originalRequest3
+201,swaggerInfo4,originalRequest4
+403,swaggerInfo5,originalRequest5
+200,swaggerInfo6,originalRequest6
+404,swaggerInfo7,originalRequest7
+500,swaggerInfo8,originalRequest8
+201,swaggerInfo9,originalRequest9
+403,swaggerInfo10,originalRequest10

@@ -1,0 +1,11 @@
+statusCode,firstName,lastName,email,phoneNumber,age,gender,address
+200,John,Doe,johndoe@gmail.com,1234567890,25,Male,123 Main St
+201,Jane,Smith,janesmith@gmail.com,0987654321,30,Female,456 High St
+200,Robert,Johnson,robertjohnson@gmail.com,1122334455,35,Male,789 Low St
+201,Emily,Williams,emilywilliams@gmail.com,2233445566,40,Female,321 East St
+200,Michael,Brown,michaelbrown@gmail.com,3344556677,45,Male,654 West St
+201,Elizabeth,Jones,elizabethjones@gmail.com,4455667788,50,Female,987 South St
+200,James,Garcia,jamesgarcia@gmail.com,5566778899,55,Male,210 North St
+201,Patricia,Rodriguez,patriciarodriguez@gmail.com,6677889900,60,Female,543 Center St
+200,David,Martinez,davidmartinez@gmail.com,7788990011,65,Male,876 Corner St
+201,Linda,Hernandez,lindahernandez@gmail.com,8899001122,70,Female,109 Round St

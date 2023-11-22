@@ -1,0 +1,11 @@
+statusCode,firstName,lastName,email,phoneNumber,age,city,country
+200,John,Doe,johndoe@gmail.com,1234567890,30,New York,USA
+201,Jane,Smith,janesmith@gmail.com,0987654321,35,Los Angeles,USA
+202,Robert,Johnson,robertjohnson@gmail.com,1122334455,40,Chicago,USA
+203,Michael,Jackson,michaeljackson@gmail.com,2233445566,45,Houston,USA
+204,William,Williams,williamwilliams@gmail.com,3344556677,50,Philadelphia,USA
+205,David,Brown,davidbrown@gmail.com,4455667788,55,Phoenix,USA
+206,Mary,Davis,marydavis@gmail.com,5566778899,60,San Antonio,USA
+207,Patricia,Garcia,patriciagarcia@gmail.com,6677889900,65,San Diego,USA
+208,Linda,Rodriguez,lindarodriguez@gmail.com,7788990011,70,Dallas,USA
+209,Elizabeth,Martinez,elizabethmartinez@gmail.com,8899001122,75,San Jose,USA

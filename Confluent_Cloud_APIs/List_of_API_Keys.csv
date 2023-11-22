@@ -1,0 +1,11 @@
+ID,Name,Email,Address,City,State,ZipCode,PhoneNumber,StatusCode
+1,John Doe,johndoe@gmail.com,123 Main St,New York,NY,10001,1234567890,200
+2,Jane Smith,janesmith@gmail.com,456 Elm St,Los Angeles,CA,90001,2345678901,404
+3,Bob Johnson,bobjohnson@gmail.com,789 Pine St,Chicago,IL,60007,3456789012,500
+4,Alice Williams,alicewilliams@gmail.com,1011 Oak St,Houston,TX,77001,4567890123,302
+5,Charlie Brown,charliebrown@gmail.com,1213 Maple St,Philadelphia,PA,19019,5678901234,201
+6,Emily Davis,emilydavis@gmail.com,1415 Cedar St,Phoenix,AZ,85001,6789012345,403
+7,David Miller,davidmiller@gmail.com,1617 Spruce St,San Antonio,TX,78201,7890123456,301
+8,Sarah Wilson,sarahwilson@gmail.com,1819 Willow St,San Diego,CA,92101,8901234567,202
+9,Michael Moore,michaelmoore@gmail.com,2021 Pine St,Dallas,TX,75201,9012345678,400
+10,Laura Taylor,laurataylor@gmail.com,2223 Oak St,San Jose,CA,95101,0123456789,501
