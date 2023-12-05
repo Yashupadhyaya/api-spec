@@ -1,0 +1,5 @@
+id,statusCode,scenario
+urn:uuid:808dda90-3a32-529a-a9ee-778872392bee,200,Successful responses: OK
+urn:uuid:808dda90-3a32-529a-a9ee-778872392bee,400,Client error responses: Bad Request
+urn:uuid:808dda90-3a32-529a-a9ee-778872392bee,403,Client error responses: Forbidden
+urn:uuid:808dda90-3a32-529a-a9ee-778872392bee,404,Client error responses: Not Found
