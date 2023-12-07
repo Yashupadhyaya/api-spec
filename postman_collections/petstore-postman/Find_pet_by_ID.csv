@@ -1,0 +1,4 @@
+petId,statusCode,scenario
+<long>,200,Successful responses: OK
+<long>,400,Client error responses: Bad Request
+<long>,404,Client error responses: Not Found

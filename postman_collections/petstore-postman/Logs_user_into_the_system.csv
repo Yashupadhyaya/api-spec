@@ -1,0 +1,10 @@
+username,password,statusCode,scenario
+user1,pass123,200,Successful responses: OK
+user2,pass456,200,Successful responses: OK
+user3,pass789,200,Successful responses: OK
+user4,pass101112,400,Client error responses: Bad Request
+user5,pass131415,400,Client error responses: Bad Request
+user6,cupidatat in eiusmod enim,400,Client error responses: Bad Request
+user7,available,400,Client error responses: Bad Request
+user8,pending,400,Client error responses: Bad Request
+user9,sold,400,Client error responses: Bad Request
