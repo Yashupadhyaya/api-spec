@@ -1,0 +1,4 @@
+id,username,firstName,lastName,email,password,phone,userStatus,statusCode,scenario
+1,johndoe,John,Doe,johndoe@example.com,pass123,555-1234,available,500,Internal Server Error
+2,janedoe,Jane,Doe,janedoe@example.com,pass456,555-5678,pending,500,Internal Server Error
+3,mikesmith,Mike,Smith,mikesmith@example.com,pass789,555-9012,sold,500,Internal Server Error

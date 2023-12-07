@@ -1,0 +1,4 @@
+name,0,1,id,status,statusCode,scenario
+John Doe,23,45,001,available,405,Client error responses: Method Not Allowed
+Jane Smith,54,67,002,pending,405,Client error responses: Method Not Allowed
+Alex Johnson,89,12,003,sold,405,Client error responses: Method Not Allowed
