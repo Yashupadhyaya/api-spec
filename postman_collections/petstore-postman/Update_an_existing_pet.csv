@@ -1,0 +1,4 @@
+name,0,1,id,status,statusCode,scenario
+John Doe,23,45,1,available,400,Client error responses: Bad Request
+Jane Smith,56,78,2,pending,404,Client error responses: Not Found
+Alice Johnson,90,12,3,sold,405,Client error responses: Method Not Allowed
