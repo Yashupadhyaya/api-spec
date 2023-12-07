@@ -1,0 +1,12 @@
+username,statusCode,scenario
+johndoe,200,Successful responses: OK
+janedoe,200,Successful responses: OK
+mikesmith,200,Successful responses: OK
+username,statusCode,scenario
+usererror,400,Client error responses: Bad Request
+typo_user,400,Client error responses: Bad Request
+invalidrequest,400,Client error responses: Bad Request
+username,statusCode,scenario
+notfounduser,404,Client error responses: Not Found
+missinguser,404,Client error responses: Not Found
+unknownid,404,Client error responses: Not Found

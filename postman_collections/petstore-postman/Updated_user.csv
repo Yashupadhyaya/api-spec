@@ -1,0 +1,7 @@
+username,id,firstName,lastName,email,password,phone,userStatus,statusCode,scenario
+johndoe1,1,John,Doe,johndoe1@example.com,password123,555-1234,available,400,Client error responses: Bad Request
+janedoe2,2,Jane,Doe,janedoe2@example.com,password456,555-5678,pending,400,Client error responses: Bad Request
+johndoe3,3,John,Doe,johndoe3@example.com,password789,555-9012,sold,400,Client error responses: Bad Request
+janedoe4,4,Jane,Doe,janedoe4@example.com,password101,555-3456,available,404,Client error responses: Not Found
+johndoe5,5,John,Doe,johndoe5@example.com,password112,555-7890,pending,404,Client error responses: Not Found
+janedoe6,6,Jane,Doe,janedoe6@example.com,password131,555-4567,sold,404,Client error responses: Not Found
