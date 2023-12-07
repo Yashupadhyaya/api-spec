@@ -1,0 +1,10 @@
+name,0,1,id,status,statusCode,scenario
+John Doe,34,56,101,available,400,Client error responses: Bad Request
+Jane Smith,78,90,102,pending,400,Client error responses: Bad Request
+Alice Johnson,12,34,103,sold,400,Client error responses: Bad Request
+Bob Brown,56,78,104,available,404,Client error responses: Not Found
+Charlie Black,90,12,105,pending,404,Client error responses: Not Found
+Diana White,34,56,106,sold,404,Client error responses: Not Found
+Evan Green,78,90,107,available,405,Client error responses: Method Not Allowed
+Fiona Grey,12,34,108,pending,405,Client error responses: Method Not Allowed
+George Yellow,56,78,109,sold,405,Client error responses: Method Not Allowed
