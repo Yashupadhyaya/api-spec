@@ -1,0 +1,9 @@
+spec,statusCode,scenario
+CI kafka access key,202,Successful responses: Accepted
+invalid_filter,400,Client error responses: Bad Request
+user_unauthenticated,401,Client error responses: Unauthorized
+quota_exceeded,402,Client error responses: Payment Required
+user_unauthorized,403,Client error responses: Forbidden
+resource_already_exists,409,Client error responses: Conflict
+invalid_configuration,422,Client error responses: Unprocessable Entity
+out_of_gas,500,Server error responses: Internal Server Error

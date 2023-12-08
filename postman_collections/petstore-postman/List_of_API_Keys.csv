@@ -1,0 +1,7 @@
+spec.owner,spec.resource,page_size,page_token,statusCode,scenario
+fcpm/v2,ComputePool,25,,200,Successful responses: OK
+fcpm/v2,ComputePool,25,,400,Client error responses: Bad Request
+fcpm/v2,ComputePool,25,,401,Client error responses: Unauthorized
+fcpm/v2,ComputePool,25,,403,Client error responses: Forbidden
+fcpm/v2,ComputePool,25,,429,Client error responses: Too Many Requests
+fcpm/v2,ComputePool,25,,500,Server error responses: Internal Server Error
