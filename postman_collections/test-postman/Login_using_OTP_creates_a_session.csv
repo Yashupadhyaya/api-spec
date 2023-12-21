@@ -1,0 +1,5 @@
+client,email,otp,statusCode,scenario
+mobile,john.doe@example.com,123456,201,Successful responses: Created
+web,jane.smith@example.com,654321,201,Successful responses: Created
+api,info@company.com,987654,400,Client error responses: Bad Request
+desktop,support@service.org,456789,400,Client error responses: Bad Request

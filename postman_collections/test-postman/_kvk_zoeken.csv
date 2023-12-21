@@ -1,0 +1,6 @@
+kvkNummer,vestigingsnummer,handelsnaam,statusCode,scenario
+12345678,123456789012,Handelsnaam BV,200,Successful responses: OK
+23456789,234567890123,Commercieel NV,200,Successful responses: OK
+34567890,345678901234,Trade Corp,200,Successful responses: OK
+45678901,456789012345,Enterprise AG,200,Successful responses: OK
+56789012,567890123456,Merchandise GmbH,200,Successful responses: OK

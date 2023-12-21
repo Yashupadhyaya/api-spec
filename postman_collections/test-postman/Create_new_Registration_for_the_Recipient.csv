@@ -1,0 +1,4 @@
+id,credentialUrl,startDate,reference,endDate,statusCode,scenario
+urn:uuid:2f9d705e-1e26-7ebc-d505-c4d025138917,<string>,<date>,<string>,<date>,201,Successful responses: Created
+,,<string>,<string>,<string>,400,Client error responses: Bad Request
+,,<string>,<string>,<string>,401,Client error responses: Unauthorized

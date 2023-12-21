@@ -1,0 +1,7 @@
+credential-url,size,offset,id,statusCode,scenario
+ZdtKK:H?;mxsAq$,20,0,e93edb70-97ce-d791-7ddf-abd3496dc857,200,Successful responses: OK
+p:/^]qg$,20,0,bd60f1e3-78fc-6a24-709d-d51ac151689f,200,Successful responses: OK
+credential-url,20,0,id,400,Client error responses: Bad Request
+credential-url,20,0,id,400,Client error responses: Bad Request
+credential-url,20,0,id,401,Client error responses: Unauthorized
+credential-url,20,0,id,401,Client error responses: Unauthorized

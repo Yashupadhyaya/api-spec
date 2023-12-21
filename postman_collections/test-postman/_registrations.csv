@@ -1,0 +1,11 @@
+size,offset,recipient-id,credential-url,statusCode,scenario
+20,0,urn:uuid:d30b1262-96d4-aef9-b06b-128016c79240,http://example.com/credential/8d30afbe-1ce2-d98c-0efd-1254a962eb53,200,Successful responses: OK
+20,0,31bfd9cb-b548-19cc-89e4-dff18df8e00d,http://example.com/credential/fbe1c638-af33-3bd8-a9d7-38914d1fd148,200,Successful responses: OK
+
+size,offset,recipient-id,credential-url,statusCode,scenario
+20,0,urn:uuid:d30b1262-96d4-aef9-b06b-128016c79240,http://example.com/credential/8d30afbe-1ce2-d98c-0efd-1254a962eb53,400,Client error responses: Bad Request
+20,0,31bfd9cb-b548-19cc-89e4-dff18df8e00d,http://example.com/credential/fbe1c638-af33-3bd8-a9d7-38914d1fd148,400,Client error responses: Bad Request
+
+size,offset,recipient-id,credential-url,statusCode,scenario
+20,0,urn:uuid:d30b1262-96d4-aef9-b06b-128016c79240,http://example.com/credential/8d30afbe-1ce2-d98c-0efd-1254a962eb53,401,Client error responses: Unauthorized
+20,0,31bfd9cb-b548-19cc-89e4-dff18df8e00d,http://example.com/credential/fbe1c638-af33-3bd8-a9d7-38914d1fd148,401,Client error responses: Unauthorized

@@ -1,0 +1,5 @@
+email,statusCode,scenario
+johndoe@example.com,200,Successful responses: OK
+janedoe@example.com,200,Successful responses: OK
+johndoe@example.com,400,Client error responses: Bad Request
+janedoe@example.com,400,Client error responses: Bad Request
