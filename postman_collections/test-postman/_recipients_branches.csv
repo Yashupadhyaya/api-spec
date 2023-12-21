@@ -1,0 +1,7 @@
+coc-number,coc-branch-number,trade-name,size,offset,statusCode,scenario
+02841895,838613879170,non in in ut,20,0,200,Successful responses: OK
+02058594,407087377756,quis aliquip ea cupidatat,20,0,200,Successful responses: OK
+02841895,838613879170,non in in ut,20,0,400,Client error responses: Bad Request
+02058594,407087377756,quis aliquip ea cupidatat,20,0,400,Client error responses: Bad Request
+02841895,838613879170,non in in ut,20,0,401,Client error responses: Unauthorized
+02058594,407087377756,quis aliquip ea cupidatat,20,0,401,Client error responses: Unauthorized

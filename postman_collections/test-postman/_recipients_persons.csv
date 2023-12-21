@@ -1,0 +1,4 @@
+birthDate,initials,lastName,firstName,middleName,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+2000-01-01,J.D,Doe,John,Daniel,New York,5551234567,john.d@example.com,1234AB,123,A,US,ref123,201,Successful responses: Created
+1990-05-05,A.B,Smith,Alice,Beth,London,5559876543,alice.b@example.com,5678CD,456,B,GB,ref456,400,Client error responses: Bad Request
+1985-09-10,C.E,Johnson,Charles,Evan,Toronto,5556781234,charles.e@example.com,91011EF,789,C,CA,ref789,401,Client error responses: Unauthorized

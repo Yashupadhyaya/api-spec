@@ -1,0 +1,4 @@
+email,statusCode,scenario
+user@example.com,201,Successful responses: Created
+client@example.net,400,Client error responses: Bad Request
+unauthorized@example.org,401,Client error responses: Unauthorized

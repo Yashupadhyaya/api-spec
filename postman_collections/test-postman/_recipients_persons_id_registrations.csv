@@ -1,0 +1,7 @@
+credential-url,size,offset,id,statusCode,scenario
+<string>,20,0,urn:uuid:b6328504-ab08-e41b-fae6-e7ae8a953816,200,Successful responses: OK
+<string>,20,0,urn:uuid:ea3c547d-5a14-3a7d-9eee-1aa8ede52a3d,200,Successful responses: OK
+<string>,20,0,urn:uuid:b6328504-ab08-e41b-fae6-e7ae8a953816,400,Client error responses: Bad Request
+<string>,20,0,urn:uuid:ea3c547d-5a14-3a7d-9eee-1aa8ede52a3d,400,Client error responses: Bad Request
+<string>,20,0,urn:uuid:b6328504-ab08-e41b-fae6-e7ae8a953816,401,Client error responses: Unauthorized
+<string>,20,0,urn:uuid:ea3c547d-5a14-3a7d-9eee-1aa8ede52a3d,401,Client error responses: Unauthorized

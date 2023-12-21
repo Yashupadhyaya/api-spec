@@ -1,0 +1,5 @@
+cocNumber,cocBranchNumber,city,tradeName,phone,email,statusCode,scenario
+12345678,123456789012,Amsterdam,Trade Corp,0123456789,email@example.com,200,Successful responses: OK
+87654321,210987654321,Rotterdam,Business Trade,9876543210,contact@business.com,201,Successful responses: Created
+11223344,331122445566,The Hague,Marketplace Ltd,2233445566,support@market.com,400,Client error responses: Bad Request
+44332211,665544332211,Utrecht,Export Goods,5566778899,service@exportgoods.com,401,Client error responses: Unauthorized

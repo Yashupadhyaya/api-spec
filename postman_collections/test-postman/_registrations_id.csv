@@ -1,0 +1,4 @@
+id,reference,revoked,suspendedUntil,endDate,statusCode,scenario
+urn:uuid:10b469eb-47bc-e3dd-f572-ac44d02a629e,<string>,false,<date>,<date>,200,Successful responses: OK
+<string>,<string>,false,<date>,<date>,400,Client error responses: Bad Request
+<string>,<string>,false,<date>,<date>,401,Client error responses: Unauthorized

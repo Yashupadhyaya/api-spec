@@ -1,0 +1,4 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+urn:uuid:ee53f53e-5f34-620e-47fb-c856c61321d7,AB,John,D.,Doe,1985-06-15,New York,+1234567890,john.doe@example.com,1234AB,12,A,US,REF1234567,200,Successful responses: OK
+urn:uuid:ee53f53e-5f34-620e-47fb-c856c61321d7,CD,Jane,E.,Smith,1990-07-20,Los Angeles,+1987654321,jane.smith@example.com,5678CD,34,B,US,REF7654321,400,Client error responses: Bad Request
+urn:uuid:ee53f53e-5f34-620e-47fb-c856c61321d7,EF,Emily,F.,Johnson,1975-08-30,Chicago,+1230984567,emily.johnson@example.com,9012EF,56,C,US,REF1029384,401,Client error responses: Unauthorized
