@@ -1,0 +1,5 @@
+0,statusCode,scenario
+1,201,Successful responses: Created
+2,201,Successful responses: Created
+3,400,Client error responses: Bad Request
+4,400,Client error responses: Bad Request
