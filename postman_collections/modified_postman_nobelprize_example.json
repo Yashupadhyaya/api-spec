@@ -1,0 +1,392 @@
+{
+  "item": [
+    {
+      "id": "9d280ed9-38e4-4bb6-8379-64eb391e8516",
+      "name": "Obtain information about all Nobel Prizes or search for a specific set of Nobel Prizes. Note that not all information about the Laureates are provided in the output, as a request of making this endpoints response lighter. Call the laureates endpoint for full information.",
+      "request": {
+        "name": "Obtain information about all Nobel Prizes or search for a specific set of Nobel Prizes. Note that not all information about the Laureates are provided in the output, as a request of making this endpoints response lighter. Call the laureates endpoint for full information.",
+        "description": {
+          "content": "Obtain information about all Nobel Prizes or search for a specific set of Nobel Prizes. Note that not all information about the Laureates are provided in the output, as a request of making this endpoints response lighter. Call the laureates endpoint for full information.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "nobelPrizes"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "offset",
+              "value": "{{offset}}",
+              "description": "The number of items to skip before starting to collect the result set"
+            },
+            {
+              "disabled": false,
+              "key": "limit",
+              "value": "{{limit}}",
+              "description": "The numbers of items to return"
+            },
+            {
+              "disabled": false,
+              "key": "sort",
+              "value": "{{sort}}",
+              "description": "The sort order (result is sorted by year)"
+            },
+            {
+              "disabled": false,
+              "key": "nobelPrizeYear",
+              "value": "{{nobelPrizeYear}}",
+              "description": "Year the Nobel Prize was awarded, in the form of YYYY"
+            },
+            {
+              "disabled": false,
+              "key": "yearTo",
+              "value": "{{yearTo}}",
+              "description": "Used in combination with nobelPrizeYear to specify a range of years to return results from. NobelPrizeYear is required"
+            },
+            {
+              "disabled": false,
+              "key": "nobelPrizeCategory",
+              "value": "{{nobelPrizeCategory}}",
+              "description": "Nobel Prize category"
+            },
+            {
+              "disabled": false,
+              "key": "format",
+              "value": "{{format}}",
+              "description": "Format of output (Default = json)"
+            },
+            {
+              "disabled": false,
+              "key": "csvLang",
+              "value": "{{csvLang}}",
+              "description": "Language of output if format is csv (Default = en)"
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "fcd4f520-6e68-4746-b77a-98e5b98da9d3",
+          "name": "Successful call of Nobel Prize(s) according to the filled fields",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "{{offset}}"
+                },
+                {
+                  "key": "limit",
+                  "value": "{{limit}}"
+                },
+                {
+                  "key": "sort",
+                  "value": "{{sort}}"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "{{nobelPrizeYear}}"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "{{yearTo}}"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "{{nobelPrizeCategory}}"
+                },
+                {
+                  "key": "format",
+                  "value": "{{format}}"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "{{csvLang}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"nobelPrizes\": [\n    {\n      \"awardYear\": 1989,\n      \"category\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"categoryFullName\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"dateAwarded\": \"2015-11-12\",\n      \"prizeAmount\": 1000000,\n      \"prizeAmountAdjusted\": 1000000,\n      \"topMotivation\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"laureates\": [\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            },\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        },\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            },\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"awardYear\": 1989,\n      \"category\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"categoryFullName\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"dateAwarded\": \"2015-11-12\",\n      \"prizeAmount\": 1000000,\n      \"prizeAmountAdjusted\": 1000000,\n      \"topMotivation\": {\n        \"en\": \"English\",\n        \"se\": \"Svenska\",\n        \"false\": \"Norsk\"\n      },\n      \"laureates\": [\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            },\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        },\n        {\n          \"id\": 34,\n          \"name\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"portion\": \"1\",\n          \"sortOrder\": \"1\",\n          \"motivation\": {\n            \"en\": \"English\",\n            \"se\": \"Svenska\",\n            \"false\": \"Norsk\"\n          },\n          \"links\": [\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            },\n            {\n              \"rel\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"href\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"action\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"types\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"meta\": {\n    \"offset\": 35043766,\n    \"limit\": 56440945,\n    \"nobelPrizeYear\": 54957078,\n    \"yearTo\": -19321916,\n    \"nobelPrizeCategory\": \"eco\",\n    \"count\": 15200700\n  },\n  \"links\": [\n    {\n      \"first\": \"in cillum adipisicing\",\n      \"prev\": \"ani\",\n      \"self\": \"ipsum nulla\",\n      \"next\": \"elit proident ullamco ea\",\n      \"last\": \"cupidatat laborum\"\n    },\n    {\n      \"first\": \"culpa nulla qui dolore\",\n      \"prev\": \"quis sit\",\n      \"self\": \"ad deserunt sed est\",\n      \"next\": \"id\",\n      \"last\": \"qui\"\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "da1a96d6-3f4f-41b3-8868-9a606d2628eb",
+          "name": "Bad request.The request could not be understood by the server due to malformed syntax, modifications needed.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "{{offset}}"
+                },
+                {
+                  "key": "limit",
+                  "value": "{{limit}}"
+                },
+                {
+                  "key": "sort",
+                  "value": "{{sort}}"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "{{nobelPrizeYear}}"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "{{yearTo}}"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "{{nobelPrizeCategory}}"
+                },
+                {
+                  "key": "format",
+                  "value": "{{format}}"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "{{csvLang}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "df6f50ad-aa46-4071-accd-c53b50c01e10",
+          "name": "Not Found. The requested resource could not be found but may be available again in the future.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "{{offset}}"
+                },
+                {
+                  "key": "limit",
+                  "value": "{{limit}}"
+                },
+                {
+                  "key": "sort",
+                  "value": "{{sort}}"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "{{nobelPrizeYear}}"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "{{yearTo}}"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "{{nobelPrizeCategory}}"
+                },
+                {
+                  "key": "format",
+                  "value": "{{format}}"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "{{csvLang}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0eb3e264-3a90-47fe-b393-2e4c083b6d4b",
+          "name": "Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "nobelPrizes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "offset",
+                  "value": "{{offset}}"
+                },
+                {
+                  "key": "limit",
+                  "value": "{{limit}}"
+                },
+                {
+                  "key": "sort",
+                  "value": "{{sort}}"
+                },
+                {
+                  "key": "nobelPrizeYear",
+                  "value": "{{nobelPrizeYear}}"
+                },
+                {
+                  "key": "yearTo",
+                  "value": "{{yearTo}}"
+                },
+                {
+                  "key": "nobelPrizeCategory",
+                  "value": "{{nobelPrizeCategory}}"
+                },
+                {
+                  "key": "format",
+                  "value": "{{format}}"
+                },
+                {
+                  "key": "csvLang",
+                  "value": "{{csvLang}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"code\": \"404\",\n  \"message\": \"There is not Laureate born that date\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test test-postman1 using AI Type Open AI and AI Model gpt-4-1106-preview\n\n\nTest generated for /nobelPrizes?offset=<integer>&limit=<integer>&sort=<string>&nobelPrizeYear=<integer>&yearTo=<integer>&nobelPrizeCategory=<string>&format=<string>&csvLang=<string> for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"Successful call of Nobel Prize(s) according to the filled fields\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"OK\");      \n        pm.test('Response has the `nobelPrizes` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"nobelPrizes\")){\n            if(responseData.nobelPrizes!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"nobelPrizes\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Each object in the `nobelPrizes` field has all the required fields',function(){         \n          pm.expect(responseData).to.have.nested.property(\"nobelPrizes\");  \n          let nobelPrizesArray = _.get(responseData, \"nobelPrizes\", \"\");  \n          for (let i = 0; i < nobelPrizesArray.length; i++) {  \n            \t\n        pm.test(`${i} element of array 'nobelPrizes' has 'awardYear' as number`,function(){  \n          if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"awardYear\")){\n            if(responseData.nobelPrizes[i].awardYear != null ){\n              pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].awardYear`, 200)).to.equal(\"number\");\n            }\n          }   \n        })\n\n\n      pm.test(`${i} element of array 'nobelPrizes' has 'category' as 'object'`,function(){ \n        if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"category\")){\n          if(responseData.nobelPrizes[i].category != null){\n            pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].category`, \"\")).to.equal(\"object\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'nobelPrizes' has 'categoryFullName' as 'object'`,function(){ \n        if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"categoryFullName\")){\n          if(responseData.nobelPrizes[i].categoryFullName != null){\n            pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].categoryFullName`, \"\")).to.equal(\"object\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'nobelPrizes' has 'dateAwarded' as 'string'`,function(){ \n        if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"dateAwarded\")){\n          if(responseData.nobelPrizes[i].dateAwarded != null){\n            pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].dateAwarded`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n  \n            pm.test('nobelPrizes format to be date',function(){\n                pm.expect(_.get(responseData, \"nobelPrizes\", \"\")).to.match(/^d{4}-d{2}-d{2}$/);\n            })\n\n        pm.test(`${i} element of array 'nobelPrizes' has 'prizeAmount' as number`,function(){  \n          if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"prizeAmount\")){\n            if(responseData.nobelPrizes[i].prizeAmount != null ){\n              pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].prizeAmount`, 200)).to.equal(\"number\");\n            }\n          }   \n        })\n\n\n        pm.test(`${i} element of array 'nobelPrizes' has 'prizeAmountAdjusted' as number`,function(){  \n          if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"prizeAmountAdjusted\")){\n            if(responseData.nobelPrizes[i].prizeAmountAdjusted != null ){\n              pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].prizeAmountAdjusted`, 200)).to.equal(\"number\");\n            }\n          }   \n        })\n\n\n      pm.test(`${i} element of array 'nobelPrizes' has 'topMotivation' as 'object'`,function(){ \n        if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"topMotivation\")){\n          if(responseData.nobelPrizes[i].topMotivation != null){\n            pm.expect(typeof _.get(responseData,`nobelPrizes[${i}].topMotivation`, \"\")).to.equal(\"object\");\n          }\n        }\n      })\n \n\n        pm.test(`${i} element of array 'nobelPrizes' has 'laureates' as an array`,function(){ \n          if(pm.expect(responseData.nobelPrizes[i]).to.have.nested.property(\"laureates\")){\n            if(responseData.nobelPrizes[i].laureates != null){\n              pm.expect(Array.isArray(_.get(responseData, `nobelPrizes[${i}].laureates`))).to.equal(true);\n            }\n          }\n        })\n\n  \n          }\n\n      })\n\n      pm.test('Response has the `meta` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"meta\")){\n          if(responseData.meta!=null){\n            pm.expect(typeof _.get(responseData, \"meta\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `meta.offset` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"meta.offset\")){\n            if(responseData.meta.offset!=null){\n              pm.expect(typeof _.get(responseData, \"meta.offset\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n        pm.test('Response has the `meta.limit` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"meta.limit\")){\n            if(responseData.meta.limit!=null){\n              pm.expect(typeof _.get(responseData, \"meta.limit\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n  \n        pm.test('meta.limit to be alteast `1`',function(){ \n          pm.expect(_.get(responseData, \"meta.limit\", \"\")).to.be.at.least(1);\n        })\n\n        pm.test('Response has the `meta.nobelPrizeYear` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"meta.nobelPrizeYear\")){\n            if(responseData.meta.nobelPrizeYear!=null){\n              pm.expect(typeof _.get(responseData, \"meta.nobelPrizeYear\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n        pm.test('Response has the `meta.yearTo` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"meta.yearTo\")){\n            if(responseData.meta.yearTo!=null){\n              pm.expect(typeof _.get(responseData, \"meta.yearTo\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n      pm.test('Response has the `meta.nobelPrizeCategory` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"meta.nobelPrizeCategory\")){\n          if(responseData.meta.nobelPrizeCategory!=null){\n            pm.expect(typeof _.get(responseData, \"meta.nobelPrizeCategory\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `meta.count` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"meta.count\")){\n            if(responseData.meta.count!=null){\n              pm.expect(typeof _.get(responseData, \"meta.count\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n      \n        pm.test('Response has the `links` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"links\")){\n            if(responseData.links!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"links\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Each object in the `links` field has all the required fields',function(){         \n          pm.expect(responseData).to.have.nested.property(\"links\");  \n          let linksArray = _.get(responseData, \"links\", \"\");  \n          for (let i = 0; i < linksArray.length; i++) {  \n            \t\n      pm.test(`${i} element of array 'links' has 'first' as 'string'`,function(){ \n        if(pm.expect(responseData.links[i]).to.have.nested.property(\"first\")){\n          if(responseData.links[i].first != null){\n            pm.expect(typeof _.get(responseData,`links[${i}].first`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'links' has 'prev' as 'string'`,function(){ \n        if(pm.expect(responseData.links[i]).to.have.nested.property(\"prev\")){\n          if(responseData.links[i].prev != null){\n            pm.expect(typeof _.get(responseData,`links[${i}].prev`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'links' has 'self' as 'string'`,function(){ \n        if(pm.expect(responseData.links[i]).to.have.nested.property(\"self\")){\n          if(responseData.links[i].self != null){\n            pm.expect(typeof _.get(responseData,`links[${i}].self`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'links' has 'next' as 'string'`,function(){ \n        if(pm.expect(responseData.links[i]).to.have.nested.property(\"next\")){\n          if(responseData.links[i].next != null){\n            pm.expect(typeof _.get(responseData,`links[${i}].next`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'links' has 'last' as 'string'`,function(){ \n        if(pm.expect(responseData.links[i]).to.have.nested.property(\"last\")){\n          if(responseData.links[i].last != null){\n            pm.expect(typeof _.get(responseData,`links[${i}].last`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n  \n          }\n\n      })\n});\n}\n\nif (pm.response.code == 400){\n    pm.test(\"Bad request.The request could not be understood by the server due to malformed syntax, modifications needed.\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"code\")){\n          if(responseData.code!=null){\n            pm.expect(typeof _.get(responseData, \"code\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `message` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"message\")){\n          if(responseData.message!=null){\n            pm.expect(typeof _.get(responseData, \"message\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n});\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found. The requested resource could not be found but may be available again in the future.\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"code\")){\n          if(responseData.code!=null){\n            pm.expect(typeof _.get(responseData, \"code\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `message` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"message\")){\n          if(responseData.message!=null){\n            pm.expect(typeof _.get(responseData, \"message\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n});\n}\n\nif (pm.response.code == 422){\n    pm.test(\"Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Unprocessable Entity (WebDAV) (RFC 4918)\");\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"code\")){\n          if(responseData.code!=null){\n            pm.expect(typeof _.get(responseData, \"code\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `message` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"message\")){\n          if(responseData.message!=null){\n            pm.expect(typeof _.get(responseData, \"message\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n});\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "http://api.nobelprize.org/2.1",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "55958c84-ffd8-44d8-b565-0dc60aded321",
+    "name": "Nobel Prize Master Data",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Information about the Nobel Prizes and the Nobel Prize Laureates",
+      "type": "text/plain"
+    }
+  }
+}
