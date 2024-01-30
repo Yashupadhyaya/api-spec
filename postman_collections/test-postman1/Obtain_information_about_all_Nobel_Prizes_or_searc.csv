@@ -1,0 +1,13 @@
+offset,limit,sort,nobelPrizeYear,yearTo,nobelPrizeCategory,format,csvLang,statusCode,scenario
+2,10,asc,1989,1990,che,json,en,200,Successful call of Nobel Prize(s) according to the filled fields
+3,5,desc,1901,1905,phy,csv,se,200,Successful call of Nobel Prize(s) according to the filled fields
+1,50,asc,2001,2003,med,json,no,200,Successful call of Nobel Prize(s) according to the filled fields
+-1,100,asc,1989,1990,lit,json,en,400,Bad request. The request could not be understood by the server due to malformed syntax, modifications needed.
+2,0,desc,1899,1900,eco,csv,se,400,Bad request. The request could not be understood by the server due to malformed syntax, modifications needed.
+100,10,asc,2050,2051,pea,json,no,400,Bad request. The request could not be understood by the server due to malformed syntax, modifications needed.
+2,10,up,1989,1990,art,json,en,422,Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.
+3,5,asc,1901,1899,phy,csv,se,422,Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.
+1,50,desc,2001,2003,med,xml,no,422,Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors.
+2,10,asc,1989,1990,che,json,en,404,Not Found. The requested resource could not be found but may be available again in the future.
+3,5,desc,1901,1905,phy,csv,se,404,Not Found. The requested resource could not be found but may be available again in the future.
+1,50,asc,2001,2003,med,json,no,404,Not Found. The requested resource could not be found but may be available again in the future.
