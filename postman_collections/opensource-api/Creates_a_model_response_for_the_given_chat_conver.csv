@@ -1,0 +1,6 @@
+model,messages,frequency_penalty,top_logprobs,max_tokens,n,presence_penalty,type,seed,stop,temperature,top_p,tools,tool_choice,user,function_call,functions,statusCode,scenario
+gpt-3.5-turbo,[assistant: sed],0,4,100,1,0,text,9223372036854776000,stop,1,1,[ex exercitation],choice,user-1234,function call,[function name],200,OK
+gpt-3.5-turbo,[assistant: ipsum],-1,2,150,1,0.5,json_object,-9223372036854776000,null,1.5,0.5,[magna dolor veniam ad],choice,user-5678,function call,[function arguments],250,OK
+gpt-3.5-turbo,[assistant: lorem],1,3,200,1,-0.5,text,0,stop,0.5,0.5,[ut labore et dolore],choice,user-9012,function call,[function name],210,OK
+gpt-3.5-turbo,[assistant: amet],-2,5,250,1,1.5,json_object,9223372036854776000,null,2,1,[qui officia deserunt],choice,user-3456,function call,[function arguments],220,OK
+gpt-3.5-turbo,[assistant: consectetur],2,1,300,1,-1.5,text,-9223372036854776000,stop,0,0,[mollit anim id est],choice,user-7890,function call,[function name],230,OK
