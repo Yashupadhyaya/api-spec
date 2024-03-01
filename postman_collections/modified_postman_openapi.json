@@ -1,0 +1,438 @@
+{
+  "item": [
+    {
+      "id": "a7b1c9bd-00be-4550-819d-b251bdf3b1ab",
+      "name": "Creates a model response for the given chat conversation.",
+      "request": {
+        "name": "Creates a model response for the given chat conversation.",
+        "description": {},
+        "url": {
+          "path": [
+            "chat",
+            "completions"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"model\": \"{{model}}\",\n    \"messages\": \"{{messages}}\",\n    \"frequency_penalty\": \"{{frequency_penalty}}\",\n    \"logit_bias\": null,\n    \"logprobs\": false,\n    \"top_logprobs\": \"{{top_logprobs}}\",\n    \"max_tokens\": \"{{max_tokens}}\",\n    \"n\": \"{{n}}\",\n    \"presence_penalty\": \"{{presence_penalty}}\",\n    \"response_format\": {\n        \"type\": \"{{type}}\"\n    },\n    \"seed\": \"{{seed}}\",\n    \"stop\": \"{{stop}}\",\n    \"stream\": false,\n    \"temperature\": \"{{temperature}}\",\n    \"top_p\": \"{{top_p}}\",\n    \"tools\": \"{{tools}}\",\n    \"tool_choice\": \"{{tool_choice}}\",\n    \"user\": \"{{user}}\",\n    \"function_call\": \"{{function_call}}\",\n    \"functions\": \"{{functions}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "e93ac1ff-b390-42e7-8705-ded55542ee1c",
+          "name": "OK",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "chat",
+                "completions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"model\": \"{{model}}\",\n    \"messages\": \"{{messages}}\",\n    \"frequency_penalty\": \"{{frequency_penalty}}\",\n    \"logit_bias\": null,\n    \"logprobs\": false,\n    \"top_logprobs\": \"{{top_logprobs}}\",\n    \"max_tokens\": \"{{max_tokens}}\",\n    \"n\": \"{{n}}\",\n    \"presence_penalty\": \"{{presence_penalty}}\",\n    \"response_format\": {\n        \"type\": \"{{type}}\"\n    },\n    \"seed\": \"{{seed}}\",\n    \"stop\": \"{{stop}}\",\n    \"stream\": false,\n    \"temperature\": \"{{temperature}}\",\n    \"top_p\": \"{{top_p}}\",\n    \"tools\": \"{{tools}}\",\n    \"tool_choice\": \"{{tool_choice}}\",\n    \"user\": \"{{user}}\",\n    \"function_call\": \"{{function_call}}\",\n    \"functions\": \"{{functions}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"choices\": [\n    {\n      \"finish_reason\": \"stop\",\n      \"index\": -35058685,\n      \"message\": {\n        \"role\": \"assistant\",\n        \"content\": \"irure\",\n        \"tool_calls\": [\n          {\n            \"id\": \"aliqua reprehenderit adipisicing dolor\",\n            \"type\": \"function\",\n            \"function\": {\n              \"name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"arguments\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          },\n          {\n            \"id\": \"commodo laborum\",\n            \"type\": \"function\",\n            \"function\": {\n              \"name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"arguments\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          }\n        ],\n        \"function_call\": {\n          \"name\": \"aliqua pariatur\",\n          \"arguments\": \"ipsum \"\n        }\n      },\n      \"logprobs\": {\n        \"content\": [\n          {\n            \"token\": \"deserunt Excepteur incididunt dolore\",\n            \"logprob\": 64029002.47861716,\n            \"bytes\": [\n              692658,\n              -75277103\n            ],\n            \"top_logprobs\": [\n              {\n                \"token\": \"esse sint nulla\",\n                \"logprob\": -80289255.77873686,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              },\n              {\n                \"token\": \"quis ad aute eu exercitation\",\n                \"logprob\": -81731459.68601316,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              }\n            ]\n          },\n          {\n            \"token\": \"sunt ut cupidatat eiusmod\",\n            \"logprob\": 42889407.07011828,\n            \"bytes\": [\n              92581693,\n              -56594427\n            ],\n            \"top_logprobs\": [\n              {\n                \"token\": \"aliqua irure\",\n                \"logprob\": -4669781.492963627,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              },\n              {\n                \"token\": \"adipisicing\",\n                \"logprob\": 38969761.15708992,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              }\n            ]\n          }\n        ]\n      }\n    },\n    {\n      \"finish_reason\": \"tool_calls\",\n      \"index\": 37261176,\n      \"message\": {\n        \"role\": \"assistant\",\n        \"content\": \"nulla Duis in in\",\n        \"tool_calls\": [\n          {\n            \"id\": \"incididunt consequat fugiat quis\",\n            \"type\": \"function\",\n            \"function\": {\n              \"name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"arguments\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          },\n          {\n            \"id\": \"sed\",\n            \"type\": \"function\",\n            \"function\": {\n              \"name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"arguments\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          }\n        ],\n        \"function_call\": {\n          \"name\": \"labore sunt sed proident\",\n          \"arguments\": \"velit do labore\"\n        }\n      },\n      \"logprobs\": {\n        \"content\": [\n          {\n            \"token\": \"commodo sit incididunt\",\n            \"logprob\": 79460044.48374882,\n            \"bytes\": [\n              63319370,\n              45501682\n            ],\n            \"top_logprobs\": [\n              {\n                \"token\": \"elit ad\",\n                \"logprob\": 5195338.707293168,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              },\n              {\n                \"token\": \"sed eu\",\n                \"logprob\": 36173235.26122439,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              }\n            ]\n          },\n          {\n            \"token\": \"dolor ut adipisicing\",\n            \"logprob\": 62846762.36686018,\n            \"bytes\": [\n              -19009706,\n              56657730\n            ],\n            \"top_logprobs\": [\n              {\n                \"token\": \"sint minim\",\n                \"logprob\": -10890252.451907352,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              },\n              {\n                \"token\": \"u\",\n                \"logprob\": -52083312.38309443,\n                \"bytes\": [\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  },\n                  {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                  }\n                ]\n              }\n            ]\n          }\n        ]\n      }\n    }\n  ],\n  \"created\": -13629532,\n  \"id\": \"cupidatat do ut\",\n  \"model\": \"deserunt veniam mollit\",\n  \"object\": \"chat.completion\",\n  \"system_fingerprint\": \"non e\",\n  \"usage\": {\n    \"prompt_tokens\": -79038551,\n    \"completion_tokens\": 8309282,\n    \"total_tokens\": -20903544\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test opensource-api using AI Type Azure Open AI and AI Model roost-gpt4-32k\n\n\nTest generated for /chat/completions for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"OK\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"OK\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(responseData[0], `id`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `id`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(pm.response.json(), `id`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `id`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `choices` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`choices`)){\n              if(pm.expect(_.get(responseData[0], `choices`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `choices` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`choices`)){\n              if(pm.expect(_.get(pm.response.json(), `choices`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n\n      pm.test(`Each object in the choices field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`choices`);\n          let choicesArray = _.get(pm.response.json(), `choices`, \"\");\n          for (let choices_it = 0; choices_it < choicesArray.length; choices_it++) {\n            let iterator = choices_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'finish_reason' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].finish_reason`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].finish_reason`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].finish_reason' has 'finish_reason' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].finish_reason`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].finish_reason`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n \n        pm.test('choices[${choices_it}].finish_reason to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"choices[${choices_it}].finish_reason\", \"\")).to.include.oneOf([\"stop\",\"length\",\"tool_calls\",\"content_filter\",\"function_call\"]);\n        })\n\n          if(Array.isArray(responseData)) {\n            pm.test(`${iterator} element of array 'choicesArray'has 'index' as number`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].index`, 200)).to.exist){\n                pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].index`, 200)).to.equal(\"number\");\n              }  \n                \n            })\n          } else {\n            pm.test(`${iterator} element of array 'choicesArray'has 'index' as number`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].index`, 200)).to.exist){\n                pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].index`, 200)).to.equal(\"number\");\n              }  \n            })\n\n          }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'message' as 'object'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message`, 200)).to.equal(\"object\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message' has 'message' as 'object'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message`, 200)).to.equal(\"object\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'content' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.content`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.content`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.content' has 'content' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.content`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.content`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'choicesArray' has 'tool_calls' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.tool_calls`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].message.tool_calls`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'choicesArray' has 'tool_calls' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n      pm.test(`Each object in the choices[${choices_it}].message.tool_calls field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`choices[${choices_it}].message.tool_calls`);\n          let tool_callsArray = _.get(pm.response.json(), `choices[${choices_it}].message.tool_calls`, \"\");\n          for (let tool_calls_it = 0; tool_calls_it < tool_callsArray.length; tool_calls_it++) {\n            let iterator = tool_calls_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'tool_callsArray' has 'id' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.tool_calls[${tool_calls_it}].id`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.tool_calls[${tool_calls_it}].id`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.tool_calls[${tool_calls_it}].id' has 'id' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls[${tool_calls_it}].id`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.tool_calls[${tool_calls_it}].id`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'tool_callsArray' has 'type' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.tool_calls[${tool_calls_it}].type`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.tool_calls[${tool_calls_it}].type`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.tool_calls[${tool_calls_it}].type' has 'type' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls[${tool_calls_it}].type`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.tool_calls[${tool_calls_it}].type`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n \n        pm.test('choices[${choices_it}].message.tool_calls[${tool_calls_it}].type to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"choices[${choices_it}].message.tool_calls[${tool_calls_it}].type\", \"\")).to.include.oneOf([\"function\"]);\n        })\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'tool_callsArray' has 'function' as 'object'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.tool_calls[${tool_calls_it}].function`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.tool_calls[${tool_calls_it}].function`, 200)).to.equal(\"object\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.tool_calls[${tool_calls_it}].function' has 'function' as 'object'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls[${tool_calls_it}].function`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.tool_calls[${tool_calls_it}].function`, 200)).to.equal(\"object\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'tool_callsArray' has 'name' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.name`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.name`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.name' has 'name' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.name`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.name`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'tool_callsArray' has 'arguments' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.arguments`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.arguments`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.arguments' has 'arguments' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.arguments`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.tool_calls[${tool_calls_it}].function.arguments`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n          }\n\n      })\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'role' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.role`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.role`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.role' has 'role' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.role`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.role`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n \n        pm.test('choices[${choices_it}].message.role to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"choices[${choices_it}].message.role\", \"\")).to.include.oneOf([\"assistant\"]);\n        })\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'function_call' as 'object'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.function_call`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.function_call`, 200)).to.equal(\"object\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.function_call' has 'function_call' as 'object'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.function_call`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.function_call`, 200)).to.equal(\"object\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'arguments' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.function_call.arguments`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.function_call.arguments`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.function_call.arguments' has 'arguments' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.function_call.arguments`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.function_call.arguments`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'name' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].message.function_call.name`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].message.function_call.name`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].message.function_call.name' has 'name' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].message.function_call.name`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].message.function_call.name`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'logprobs' as 'object'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].logprobs`, 200)).to.equal(\"object\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].logprobs' has 'logprobs' as 'object'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].logprobs`, 200)).to.equal(\"object\");\n          }\n      })\n\n    }\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'choicesArray' has 'content' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.content`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'choicesArray' has 'content' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n      pm.test(`Each object in the choices[${choices_it}].logprobs.content field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`choices[${choices_it}].logprobs.content`);\n          let contentArray = _.get(pm.response.json(), `choices[${choices_it}].logprobs.content`, \"\");\n          for (let content_it = 0; content_it < contentArray.length; content_it++) {\n            let iterator = content_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'contentArray' has 'token' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].token`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].logprobs.content[${content_it}].token`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].logprobs.content[${content_it}].token' has 'token' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].token`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].logprobs.content[${content_it}].token`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'contentArray' has 'logprob' as 'number'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].logprob`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].logprobs.content[${content_it}].logprob`, 200)).to.equal(\"number\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].logprobs.content[${content_it}].logprob' has 'logprob' as 'number'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].logprob`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].logprobs.content[${content_it}].logprob`, 200)).to.equal(\"number\");\n          }\n      })\n\n    }\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'contentArray' has 'bytes' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].bytes`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].bytes`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'contentArray' has 'bytes' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].bytes`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].bytes`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'contentArray' has 'top_logprobs' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'contentArray' has 'top_logprobs' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n      pm.test(`Each object in the choices[${choices_it}].logprobs.content[${content_it}].top_logprobs field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`choices[${choices_it}].logprobs.content[${content_it}].top_logprobs`);\n          let top_logprobsArray = _.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs`, \"\");\n          for (let top_logprobs_it = 0; top_logprobs_it < top_logprobsArray.length; top_logprobs_it++) {\n            let iterator = top_logprobs_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'top_logprobsArray' has 'token' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].token`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].token`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].token' has 'token' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].token`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].token`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'top_logprobsArray' has 'logprob' as 'number'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].logprob`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].logprob`, 200)).to.equal(\"number\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].logprob' has 'logprob' as 'number'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].logprob`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].logprob`, 200)).to.equal(\"number\");\n          }\n      })\n\n    }\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'top_logprobsArray' has 'bytes' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].bytes`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].bytes`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'top_logprobsArray' has 'bytes' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].bytes`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.content[${content_it}].top_logprobs[${top_logprobs_it}].bytes`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n          }\n\n      })\n\n          }\n\n      })\n\n          }\n\n      })\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `created` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`created`)){\n                  if(pm.expect(_.get(responseData[0], `created`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `created`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `created` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`created`)){\n                if(pm.expect(_.get(responseData, `created`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `created`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `model` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`model`)){\n          if(pm.expect(_.get(responseData[0], `model`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `model`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `model` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`model`)){\n          if(pm.expect(_.get(pm.response.json(), `model`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `model`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `system_fingerprint` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`system_fingerprint`)){\n          if(pm.expect(_.get(responseData[0], `system_fingerprint`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `system_fingerprint`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `system_fingerprint` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`system_fingerprint`)){\n          if(pm.expect(_.get(pm.response.json(), `system_fingerprint`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `system_fingerprint`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `object` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`object`)){\n          if(pm.expect(_.get(responseData[0], `object`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `object`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `object` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`object`)){\n          if(pm.expect(_.get(pm.response.json(), `object`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `object`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('object to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"object\", \"\")).to.include.oneOf([\"chat.completion\"]);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `usage` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`usage`)){\n          if(pm.expect(_.get(responseData[0], `usage`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `usage`, 200)).to.equal(\"object\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `usage` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`usage`)){\n          if(pm.expect(_.get(pm.response.json(), `usage`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `usage`, 200)).to.equal(\"object\");\n          }\n        }\n\n      })\n    }\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `usage.completion_tokens` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`usage.completion_tokens`)){\n                  if(pm.expect(_.get(responseData[0], `usage.completion_tokens`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `usage.completion_tokens`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `usage.completion_tokens` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`usage.completion_tokens`)){\n                if(pm.expect(_.get(responseData, `usage.completion_tokens`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `usage.completion_tokens`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `usage.prompt_tokens` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`usage.prompt_tokens`)){\n                  if(pm.expect(_.get(responseData[0], `usage.prompt_tokens`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `usage.prompt_tokens`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `usage.prompt_tokens` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`usage.prompt_tokens`)){\n                if(pm.expect(_.get(responseData, `usage.prompt_tokens`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `usage.prompt_tokens`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `usage.total_tokens` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`usage.total_tokens`)){\n                  if(pm.expect(_.get(responseData[0], `usage.total_tokens`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `usage.total_tokens`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `usage.total_tokens` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`usage.total_tokens`)){\n                if(pm.expect(_.get(responseData, `usage.total_tokens`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `usage.total_tokens`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n});\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "2f01c3a3-7d96-4664-9002-f93dfe1dd663",
+      "name": "Creates a completion for the provided prompt and parameters.",
+      "request": {
+        "name": "Creates a completion for the provided prompt and parameters.",
+        "description": {},
+        "url": {
+          "path": [
+            "completions"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"model\": \"{{model}}\",\n    \"prompt\": \"{{prompt}}\",\n    \"best_of\": \"{{best_of}}\",\n    \"echo\": false,\n    \"frequency_penalty\": \"{{frequency_penalty}}\",\n    \"logit_bias\": null,\n    \"logprobs\": null,\n    \"max_tokens\": \"{{max_tokens}}\",\n    \"n\": \"{{n}}\",\n    \"presence_penalty\": \"{{presence_penalty}}\",\n    \"seed\": \"{{seed}}\",\n    \"stop\": \"{{stop}}\",\n    \"stream\": false,\n    \"suffix\": null,\n    \"temperature\": \"{{temperature}}\",\n    \"top_p\": \"{{top_p}}\",\n    \"user\": \"{{user}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "8e81acb4-b825-4210-aedc-0928cf6fbc14",
+          "name": "OK",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "completions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "{{Authorization}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"model\": \"{{model}}\",\n    \"prompt\": \"{{prompt}}\",\n    \"best_of\": \"{{best_of}}\",\n    \"echo\": false,\n    \"frequency_penalty\": \"{{frequency_penalty}}\",\n    \"logit_bias\": null,\n    \"logprobs\": null,\n    \"max_tokens\": \"{{max_tokens}}\",\n    \"n\": \"{{n}}\",\n    \"presence_penalty\": \"{{presence_penalty}}\",\n    \"seed\": \"{{seed}}\",\n    \"stop\": \"{{stop}}\",\n    \"stream\": false,\n    \"suffix\": \"{{suffix}}\",\n    \"temperature\": \"{{temperature}}\",\n    \"top_p\": \"{{top_p}}\",\n    \"user\": \"{{user}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"id\": \"dolor nostrud commodo\",\n  \"object\": \"text_completion\",\n  \"created\": 74312766,\n  \"model\": \"cupidatat ut sunt dolore irure\",\n  \"choices\": [\n    {\n      \"finish_reason\": \"stop\",\n      \"index\": -47449946,\n      \"logprobs\": {\n        \"text_offset\": [\n          -29912959,\n          35386589\n        ],\n        \"token_logprobs\": [\n          -68801332.31086205,\n          11760191.061005503\n        ],\n        \"tokens\": [\n          \"est ea mollit anim aute\",\n          \"ea sit mollit minim in\"\n        ],\n        \"top_logprobs\": [\n          {\n            \"tempor1_\": -87379060.19635679,\n            \"none9\": 57434595.25672078\n          },\n          {\n            \"aliquip0cf\": 3767359.1935436577\n          }\n        ]\n      },\n      \"text\": \"in veniam\"\n    },\n    {\n      \"finish_reason\": \"length\",\n      \"index\": -15657511,\n      \"logprobs\": {\n        \"text_offset\": [\n          31964532,\n          10601047\n        ],\n        \"token_logprobs\": [\n          40949289.62476465,\n          -96792718.30649787\n        ],\n        \"tokens\": [\n          \"culpa est\",\n          \"minim non occaecat adipisicing fugiat\"\n        ],\n        \"top_logprobs\": [\n          {\n            \"nostrud_fe_\": -560247.5997540206,\n            \"proident12\": 28744710.113143325\n          },\n          {\n            \"dolore_f4\": -46308231.53615351\n          }\n        ]\n      },\n      \"text\": \"culpa nisi\"\n    }\n  ],\n  \"system_fingerprint\": \"nulla eu ex\",\n  \"usage\": {\n    \"prompt_tokens\": -20095319,\n    \"completion_tokens\": -31629399,\n    \"total_tokens\": 48679654\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test opensource-api using AI Type Azure Open AI and AI Model roost-gpt4-32k\n\n\nTest generated for /completions for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"OK\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"OK\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(responseData[0], `id`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `id`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `id` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`id`)){\n          if(pm.expect(_.get(pm.response.json(), `id`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `id`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n        if(Array.isArray(responseData)){\n          pm.test('Response has the `choices` field',function(){\n            if(pm.expect(responseData[0]).to.have.nested.property(`choices`)){\n              if(pm.expect(_.get(responseData[0], `choices`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices`))).to.equal(true);\n              }\n            }\n\n          })\n        } else {\n          pm.test('Response has the `choices` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`choices`)){\n              if(pm.expect(_.get(pm.response.json(), `choices`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices`))).to.equal(true);\n              }\n            }\n\n          })\n        }      \n          \n\n      pm.test(`Each object in the choices field has all the required fields`,function(){\n          pm.expect(pm.response.json()).to.have.nested.property(`choices`);\n          let choicesArray = _.get(pm.response.json(), `choices`, \"\");\n          for (let choices_it = 0; choices_it < choicesArray.length; choices_it++) {\n            let iterator = choices_it;\n            \t\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'finish_reason' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].finish_reason`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].finish_reason`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].finish_reason' has 'finish_reason' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].finish_reason`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].finish_reason`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n \n        pm.test('choices[${choices_it}].finish_reason to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"choices[${choices_it}].finish_reason\", \"\")).to.include.oneOf([\"stop\",\"length\",\"content_filter\"]);\n        })\n\n          if(Array.isArray(responseData)) {\n            pm.test(`${iterator} element of array 'choicesArray'has 'index' as number`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].index`, 200)).to.exist){\n                pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].index`, 200)).to.equal(\"number\");\n              }  \n                \n            })\n          } else {\n            pm.test(`${iterator} element of array 'choicesArray'has 'index' as number`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].index`, 200)).to.exist){\n                pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].index`, 200)).to.equal(\"number\");\n              }  \n            })\n\n          }\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'logprobs' as 'object'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].logprobs`, 200)).to.equal(\"object\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].logprobs' has 'logprobs' as 'object'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].logprobs`, 200)).to.equal(\"object\");\n          }\n      })\n\n    }\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'choicesArray' has 'text_offset' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.text_offset`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.text_offset`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'choicesArray' has 'text_offset' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.text_offset`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.text_offset`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'choicesArray' has 'token_logprobs' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.token_logprobs`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.token_logprobs`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'choicesArray' has 'token_logprobs' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.token_logprobs`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.token_logprobs`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'choicesArray' has 'tokens' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.tokens`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.tokens`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'choicesArray' has 'tokens' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.tokens`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.tokens`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n        if(Array.isArray(responseData)) {\n          pm.test(`${iterator} element of array 'choicesArray' has 'top_logprobs' as an array`,function(){ \n              if(pm.expect(_.get(responseData[0], `choices[${choices_it}].logprobs.top_logprobs`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(responseData[0], `choices[${choices_it}].logprobs.top_logprobs`))).to.equal(true);\n              }\n          })\n        } else {\n          pm.test(`${iterator} element of array 'choicesArray' has 'top_logprobs' as an array`,function(){ \n              if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].logprobs.top_logprobs`, 200)).to.exist){\n                pm.expect(Array.isArray(_.get(pm.response.json(), `choices[${choices_it}].logprobs.top_logprobs`))).to.equal(true);\n              }\n          })\n        }\n        \n\n\n      if(Array.isArray(responseData)) {\n        pm.test(`${iterator} element of array 'choicesArray' has 'text' as 'string'`,function(){  \n          if(pm.expect(_.get(responseData[0], `choices[${choices_it}].text`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0],`choices[${choices_it}].text`, 200)).to.equal(\"string\");\n          }\n        })\n\n      } else {      \n        pm.test(`${iterator} element of array 'choices[${choices_it}].text' has 'text' as 'string'`,function(){ \n          if(pm.expect(_.get(pm.response.json(), `choices[${choices_it}].text`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(),`choices[${choices_it}].text`, 200)).to.equal(\"string\");\n          }\n      })\n\n    }\n\n          }\n\n      })\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `created` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`created`)){\n                  if(pm.expect(_.get(responseData[0], `created`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `created`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `created` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`created`)){\n                if(pm.expect(_.get(responseData, `created`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `created`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `model` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`model`)){\n          if(pm.expect(_.get(responseData[0], `model`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `model`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `model` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`model`)){\n          if(pm.expect(_.get(pm.response.json(), `model`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `model`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `system_fingerprint` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`system_fingerprint`)){\n          if(pm.expect(_.get(responseData[0], `system_fingerprint`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `system_fingerprint`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `system_fingerprint` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`system_fingerprint`)){\n          if(pm.expect(_.get(pm.response.json(), `system_fingerprint`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `system_fingerprint`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `object` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`object`)){\n          if(pm.expect(_.get(responseData[0], `object`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `object`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `object` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`object`)){\n          if(pm.expect(_.get(pm.response.json(), `object`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `object`, 200)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('object to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"object\", \"\")).to.include.oneOf([\"text_completion\"]);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `usage` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`usage`)){\n          if(pm.expect(_.get(responseData[0], `usage`, 200)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `usage`, 200)).to.equal(\"object\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `usage` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`usage`)){\n          if(pm.expect(_.get(pm.response.json(), `usage`, 200)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `usage`, 200)).to.equal(\"object\");\n          }\n        }\n\n      })\n    }\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `usage.completion_tokens` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`usage.completion_tokens`)){\n                  if(pm.expect(_.get(responseData[0], `usage.completion_tokens`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `usage.completion_tokens`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `usage.completion_tokens` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`usage.completion_tokens`)){\n                if(pm.expect(_.get(responseData, `usage.completion_tokens`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `usage.completion_tokens`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `usage.prompt_tokens` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`usage.prompt_tokens`)){\n                  if(pm.expect(_.get(responseData[0], `usage.prompt_tokens`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `usage.prompt_tokens`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `usage.prompt_tokens` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`usage.prompt_tokens`)){\n                if(pm.expect(_.get(responseData, `usage.prompt_tokens`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `usage.prompt_tokens`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n\n          if(Array.isArray(responseData)) {\n            pm.test('Response has the `usage.total_tokens` field',function(){ \n                if(pm.expect(responseData[0]).to.have.nested.property(`usage.total_tokens`)){\n                  if(pm.expect(_.get(responseData[0], `usage.total_tokens`, 200)).to.exist){\n                    pm.expect(typeof _.get(responseData[0], `usage.total_tokens`, 200)).to.equal(\"number\");\n                  }\n                }\n\n            })\n          } else {\n            pm.test('Response has the `usage.total_tokens` field',function(){\n              if(pm.expect(responseData).to.have.nested.property(`usage.total_tokens`)){\n                if(pm.expect(_.get(responseData, `usage.total_tokens`, 200)).to.exist){\n                  pm.expect(typeof _.get(responseData, `usage.total_tokens`, 200)).to.equal(\"number\");\n                }\n              }\n\n            })\n          }\n});\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "cacf82a1-2dda-4a31-882f-eb4656a62329",
+      "name": "images",
+      "item": [
+        null,
+        null,
+        null
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "16de9ae3-060b-461d-a864-85f4b6d96f34",
+      "name": "audio",
+      "item": [
+        null,
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "d1a7e03a-11d8-4173-b5bd-8bec98566524",
+      "name": "files",
+      "item": [
+        null,
+        null,
+        {
+          "id": "8245d097-5f27-4445-b56c-20b4c10e984e",
+          "name": "{file_id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "a204b5a2-6afa-470b-9ff4-051bec730b4d",
+      "name": "fine_tuning/jobs",
+      "item": [
+        null,
+        null,
+        {
+          "id": "0e32f31b-9019-4d22-85d9-ec903f6d5959",
+          "name": "{fine_tuning_job_id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "8088f66d-11ba-452b-b6bf-f32bb85eef74",
+      "name": "models",
+      "item": [
+        null,
+        {
+          "id": "3c079dd1-e52d-4c02-a5d9-f2dc258109f8",
+          "name": "{model}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "9641a2e0-3d98-4f06-9de2-4e17b09d5efb",
+      "name": "assistants",
+      "item": [
+        null,
+        null,
+        {
+          "id": "6c8599b4-900b-49e0-85d6-2b257b1af10a",
+          "name": "{assistant_id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "0e6f2e8e-8cf4-471e-b089-be7a142d07df",
+              "name": "files",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "cac50c2a-b0d1-4200-b647-65f92e6b5d40",
+                  "name": "{file_id}",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "71c591e5-2325-4750-9048-8cfdefbff608",
+      "name": "threads",
+      "item": [
+        null,
+        {
+          "id": "380d4fac-c8d7-41da-86b9-8da5beb091d7",
+          "name": "{thread_id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "c0704e8d-3109-413c-9947-df796f1eabdd",
+              "name": "messages",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "0cb62342-2588-46f7-9ff0-5a47b78619e1",
+                  "name": "{message_id}",
+                  "item": [
+                    null,
+                    null,
+                    {
+                      "id": "ca2ce39c-5981-4778-b167-e016dc617ea7",
+                      "name": "files",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    }
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "20fd4a92-6015-40cc-aaf2-c18440515805",
+              "name": "runs",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "a57687b8-94af-4682-bef9-08d9a4a3c2e5",
+                  "name": "{run_id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "6133720d-eb6a-4643-943f-a2c2910c6c69",
+                      "name": "steps",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    }
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.openai.com/v1",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "d84d15c8-030d-4f9c-846d-4ceeec62bdd0",
+    "name": "OpenAI API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.\n\nContact Support:\n Name: OpenAI Support",
+      "type": "text/plain"
+    }
+  }
+}
