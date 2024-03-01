@@ -1,0 +1,6 @@
+model,messages,frequency_penalty,top_logprobs,max_tokens,n,presence_penalty,type,seed,stop,temperature,top_p,tools,tool_choice,user,function_call,functions,statusCode,scenario
+gpt-3.5-turbo,1,0,5,1000,1,0,text,9223372036854776000,,1,1,,user-1234,,,200,OK
+gpt-3.5-turbo,2,0,4,1000,1,0,json_object,-9223372036854776000,,1,1,,user-1234,,,200,OK
+gpt-3.5-turbo,3,-2,3,1000,1,0,text,5000000000000,,1,1,,user-1234,,,200,OK
+gpt-3.5-turbo,1,2,2,1000,1,0,json_object,-5000000000000,,1,1,,user-1234,,,200,OK
+gpt-3.5-turbo,2,-1,1,1000,1,0,text,10000000000000,,1,1,,user-1234,,,200,OK
