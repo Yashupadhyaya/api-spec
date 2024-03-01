@@ -1,0 +1,6 @@
+model,messages,frequency_penalty,top_logprobs,max_tokens,n,presence_penalty,type,seed,stop,temperature,top_p,tools,tool_choice,user,function_call,functions,statusCode,scenario
+gpt-3.5-turbo,[assistant:Duis eu est ipsum],1.5,3,512,1,0.5,text,9227928213,,1,1,[function1, function2],function1,user-1234,voluptate ex est D,[function1, function2],200,OK
+gpt-3.5-turbo,[assistant:et sit ullamco ut],-1.2,4,1024,2,0.8,json_object,123789123456,,0.8,0.9,[function3, function4],function4,user-5678,et sit ullamco ut,[function3, function4],200,OK
+gpt-3.5-turbo,[assistant:Duis eu est ipsum],0,1,256,1,-0.5,text,78956121245,,0.5,0.7,[function5],function5,user-9999,voluptate ex est D,[function5],200,OK
+gpt-3.5-turbo,[assistant:Duis eu est ipsum],2,5,128,3,2,json_object,-45124568,null,1,1,[],null,user-10000,Duis eu est ipsum,[],400,Failed
+gpt-3.5-turbo,[assistant:et sit ullamco ut],-2,0,2048,1,-1,text,-78956124,,0.3,0.2,[function6],function6,user-11111,et sit ullamco ut,[function6],500,Failed
