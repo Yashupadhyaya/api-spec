@@ -1,0 +1,11 @@
+spec.owner,spec.resource,page_size,page_token,statusCode
+api_version,kind,5,page_token_1,200
+kind,id,10,page_token_2,400
+id,secret,15,page_token_3,401
+secret,display_name,20,page_token_4,403
+display_name,description,25,page_token_5,429
+description,self,30,page_token_6,500
+self,resource_name,35,page_token_7,200
+resource_name,created_at,40,page_token_8,400
+created_at,updated_at,45,page_token_9,401
+updated_at,deleted_at,50,page_token_10,403
