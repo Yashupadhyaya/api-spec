@@ -1,0 +1,11 @@
+spec.owner,spec.resource,page_size,page_token,statusCode
+owner1,resource1,50,token1,200
+owner2,resource2,100,token2,400
+owner3,resource3,150,token3,401
+owner4,resource4,200,token4,403
+owner5,resource5,250,token5,429
+owner6,resource6,300,token6,500
+owner7,resource7,350,token7,200
+owner8,resource8,400,token8,400
+owner9,resource9,450,token9,401
+owner10,resource10,500,token10,403
